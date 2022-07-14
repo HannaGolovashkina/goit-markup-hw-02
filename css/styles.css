@@ -49,15 +49,13 @@ body {
   color: #757575;
 }
 
-.header-item {
-}
 /*----- hero------ */
 .hero {
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
-  background-color: gray;
+  background: #2f303a;
 }
 
 .hero-title {
@@ -66,7 +64,6 @@ body {
   line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: #ffffff;
 }
 .hero-after-title {
@@ -74,8 +71,6 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-
   color: #212121;
 }
 .hero-btn {
@@ -125,4 +120,60 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /* -----footer----- */
+
+/* Footer bg */
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.addres-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/* ------portfolio.html----- */
+
+.btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #2196f3;
+}
+.portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
