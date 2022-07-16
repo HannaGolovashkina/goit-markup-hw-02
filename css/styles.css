@@ -20,6 +20,10 @@ body {
   list-style: none;
 }
 
+.current {
+  color: var(--axent-color);
+}
+
 .blue-logo {
   color: #2196f3;
 }
@@ -96,7 +100,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  border-color: #188ce8;
+  background-color: #188ce8;
 }
 
 .hero-text {
@@ -117,6 +121,11 @@ body {
   color: var(--first-title-color);
 }
 .team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: #212121;
   background-color: #f5f4fa;
 }
 
@@ -130,7 +139,7 @@ body {
 
 .team-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
@@ -139,10 +148,6 @@ body {
 
 /* Footer bg */
 .footer {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
 }
 
@@ -173,7 +178,7 @@ body {
 
 /* ------portfolio.html----- */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -184,7 +189,7 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 .btn {
   font-family: "Roboto";
@@ -196,16 +201,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-btn-color);
+  background-color: #f5f4fa;
 }
 
 .btn-link:hover,
 .btn-link:focus {
   color: #ffffff;
   background-color: #2196f3;
-}
-
-.hero-portfolio {
-  background-color: #e5e5e5;
 }
 
 .portfolio {
